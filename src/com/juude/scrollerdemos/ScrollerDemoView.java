@@ -20,7 +20,7 @@ public class ScrollerDemoView extends View{
 		mTranslationX = 0;
 	}
 
-	@SuppressLint("NewApi") @Override
+	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 		final int action = event.getAction();
 		switch(action) {
